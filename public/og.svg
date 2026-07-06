@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GeoAIResume</title>
+  <desc id="desc">GeoAIResume open graph image</desc>
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="72" y="72" width="1056" height="486" rx="24" fill="#0f172a"/>
+  <circle cx="168" cy="168" r="52" fill="#14b8a6"/>
+  <text x="240" y="184" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700">GeoAIResume</text>
+  <text x="120" y="315" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">GEO resume research, guides, and benchmarks</text>
+  <text x="120" y="388" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="28">Structured resume guidance for AI-visible career content.</text>
+</svg>

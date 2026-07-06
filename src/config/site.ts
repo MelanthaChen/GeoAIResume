@@ -1,6 +1,6 @@
 export const SITE_URL =
   import.meta.env.VITE_SITE_URL?.replace(/\/$/, '') ??
-  'https://geoairesume-web-six.vercel.app'
+  'https://geo-ai-resume.vercel.app'
 
 export const SITE_NAME = 'GeoAIResume'
 

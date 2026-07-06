@@ -8,6 +8,9 @@ type SeoProps = {
   structuredData?: Record<string, unknown> | Array<Record<string, unknown>>
 }
 
+const DEFAULT_IMAGE = `${SITE_URL}/og.svg`
+const LOGO_URL = `${SITE_URL}/favicon.svg`
+
 const upsertMeta = (selector: string, attributes: Record<string, string>) => {
   const tag =
     document.querySelector<HTMLMetaElement>(selector) ??
@@ -46,6 +49,11 @@ export function Seo({ title, description, path, structuredData }: SeoProps) {
       content: url,
     })
 
+    upsertMeta('meta[property="og:image"]', {
+      property: 'og:image',
+      content: DEFAULT_IMAGE,
+    })
+
     upsertMeta('meta[property="og:type"]', {
       property: 'og:type',
       content: structuredData ? 'article' : 'website',
@@ -53,7 +61,7 @@ export function Seo({ title, description, path, structuredData }: SeoProps) {
 
     upsertMeta('meta[name="twitter:card"]', {
       name: 'twitter:card',
-      content: 'summary',
+      content: 'summary_large_image',
     })
 
     upsertMeta('meta[name="twitter:title"]', {
@@ -64,6 +72,11 @@ export function Seo({ title, description, path, structuredData }: SeoProps) {
     upsertMeta('meta[name="twitter:description"]', {
       name: 'twitter:description',
       content: description,
+    })
+
+    upsertMeta('meta[name="twitter:image"]', {
+      name: 'twitter:image',
+      content: DEFAULT_IMAGE,
     })
 
     if (GOOGLE_SITE_VERIFICATION) {
@@ -94,15 +107,19 @@ export function Seo({ title, description, path, structuredData }: SeoProps) {
       {
         '@context': 'https://schema.org',
         '@type': 'Organization',
+        '@id': `${SITE_URL}/#organization`,
         name: SITE_NAME,
         url: SITE_URL,
+        logo: LOGO_URL,
         sameAs: [SITE_URL],
       },
       {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
+        '@id': `${SITE_URL}/#website`,
         name: SITE_NAME,
         url: SITE_URL,
+        publisher: { '@id': `${SITE_URL}/#organization` },
         potentialAction: {
           '@type': 'SearchAction',
           target: `${SITE_URL}/guides?search={search_term_string}`,

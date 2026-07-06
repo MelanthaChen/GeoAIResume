@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = resolve(__dirname, '..')
-const siteUrl = (process.env.VITE_SITE_URL ?? 'https://geoairesume-web-six.vercel.app').replace(
+const siteUrl = (process.env.VITE_SITE_URL ?? 'https://geo-ai-resume.vercel.app').replace(
   /\/$/,
   '',
 )
