@@ -4,6 +4,7 @@ import { trackPageView } from '../analytics/analytics'
 import { AuthorityInternalLinks } from '../components/AuthorityInternalLinks'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
+import { ContactSection } from '../components/ContactSection'
 
 export function MarketingLayout() {
   const location = useLocation()
@@ -19,6 +20,7 @@ export function MarketingLayout() {
         <Outlet />
       </main>
       <AuthorityInternalLinks />
+      <ContactSection />
       <Footer />
     </div>
   )

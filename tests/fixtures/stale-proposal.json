@@ -1,0 +1,13 @@
+{
+  "proposal_id": "fixture-stale",
+  "page_id": "gar:article:fixture",
+  "source_git_revision": "old-revision",
+  "exact_original_text": "Original sentence.",
+  "original_text_sha256": "sha256:b7e8a30184dc4fab8f1e3765eb2f535047c8191486504ef4b59df58a6e0d425f",
+  "replacement_text": "Replacement sentence.",
+  "strategy_id": "fixture-strategy",
+  "approval_status": "approved",
+  "source_field_locator": { "source_file": "page.ts", "original_text_sha256": "sha256:b7e8a30184dc4fab8f1e3765eb2f535047c8191486504ef4b59df58a6e0d425f" },
+  "expected_affected_pages": ["gar:article:fixture"],
+  "experiment_reference": "fixture-experiment"
+}

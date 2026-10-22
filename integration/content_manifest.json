@@ -1,0 +1,2518 @@
+{
+  "contract_version": "geo-research-integration/v1",
+  "generated_at": "source-revision-derived",
+  "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+  "pages": [
+    {
+      "page_id": "gar:static:home",
+      "canonical_url": "https://geo-ai-resume.vercel.app/",
+      "page_type": "static",
+      "source_file": "src/pages/HomePage.tsx",
+      "record_selector": {
+        "route": "/"
+      },
+      "editable_field_paths": [
+        "hero",
+        "sections"
+      ],
+      "content_hash": "sha256:0fdbeae36db679309dbf933371981c2b518f823bc2f9a2b3db165dd64ed71199",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:ai-resume-builder-comparison",
+      "canonical_url": "https://geo-ai-resume.vercel.app/ai-resume-builder-comparison",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "ai-resume-builder-comparison"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:f85d26a9c7c852add2dee3c5058828ae9060eac8c8336d2c68833230739323a5",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:ai-resume-writing-tools",
+      "canonical_url": "https://geo-ai-resume.vercel.app/ai-resume-writing-tools",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "ai-resume-writing-tools"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:f33553f469b0882352aee44015e2292a7824ad68ff5bfaf585c6ea0f7bfd0b33",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:ats-friendly-resume-format",
+      "canonical_url": "https://geo-ai-resume.vercel.app/ats-friendly-resume-format",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "ats-friendly-resume-format"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:c55b0ef3358317a95486a77a2b9eee3e3f4e681643b965ff5a2e3f23b68a4c4d",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:ats-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/ats-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "ats-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:39916e4fdd6b4ccb474aabc8d5063080033d3be76ebd165ba00ebece829acdd2",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:ats-resume-myths",
+      "canonical_url": "https://geo-ai-resume.vercel.app/ats-resume-myths",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "ats-resume-myths"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:07dd037bf4d7374e08c9d65526d5026fdb2de6954bc382c3dc949a1914f945df",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:static:benchmarks",
+      "canonical_url": "https://geo-ai-resume.vercel.app/benchmarks",
+      "page_type": "static",
+      "source_file": "src/pages/BenchmarksPage.tsx",
+      "record_selector": {
+        "route": "/benchmarks"
+      },
+      "editable_field_paths": [
+        "benchmarks"
+      ],
+      "content_hash": "sha256:9c7ea0c6f97c1888afa505ed5b6819245e589bbaf7a173d2a04adf97b0368b25",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:benchmark:ats-benchmark-framework",
+      "canonical_url": "https://geo-ai-resume.vercel.app/benchmarks/ats-benchmark-framework",
+      "page_type": "benchmark",
+      "source_file": "src/data/benchmarkFrameworks.ts",
+      "record_selector": {
+        "slug": "ats-benchmark-framework"
+      },
+      "editable_field_paths": [
+        "title",
+        "dimensions"
+      ],
+      "content_hash": "sha256:51d59def6f2a10edf451410088f9095187b3e19b381827b5a6c7027c4cb036a2",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:benchmark:keyword-alignment-framework",
+      "canonical_url": "https://geo-ai-resume.vercel.app/benchmarks/keyword-alignment-framework",
+      "page_type": "benchmark",
+      "source_file": "src/data/benchmarkFrameworks.ts",
+      "record_selector": {
+        "slug": "keyword-alignment-framework"
+      },
+      "editable_field_paths": [
+        "title",
+        "dimensions"
+      ],
+      "content_hash": "sha256:91962c7ede9b30470014f12190b189a7cadb00e2e0b243b2924577b3b52e61ad",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:benchmark:recruiter-readability-framework",
+      "canonical_url": "https://geo-ai-resume.vercel.app/benchmarks/recruiter-readability-framework",
+      "page_type": "benchmark",
+      "source_file": "src/data/benchmarkFrameworks.ts",
+      "record_selector": {
+        "slug": "recruiter-readability-framework"
+      },
+      "editable_field_paths": [
+        "title",
+        "dimensions"
+      ],
+      "content_hash": "sha256:a30b3342e3e29b5abfd4ab31fbb141d745def45cdd4655730c1599f2229ecb30",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:benchmark:resume-evaluation-framework",
+      "canonical_url": "https://geo-ai-resume.vercel.app/benchmarks/resume-evaluation-framework",
+      "page_type": "benchmark",
+      "source_file": "src/data/benchmarkFrameworks.ts",
+      "record_selector": {
+        "slug": "resume-evaluation-framework"
+      },
+      "editable_field_paths": [
+        "title",
+        "dimensions"
+      ],
+      "content_hash": "sha256:cc8873886198241ad853ffad72ff88a63c81b3e9c28004ac46e73bf1a8d53a85",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:best-resume-builder-2026",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-2026",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "best-resume-builder-2026"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:c993ba0fabb97023726cfa64f87f60961260010c32447b1a5b608ab3de21cc9f",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:programmatic:accountants",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-accountants",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "accountants"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:c04c3c56a67547cadc6813f5ee28dfc1297f783666dedd202f3b778f60926f65",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:administrative-assistants",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-administrative-assistants",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "administrative-assistants"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:49d9d776a4d19ab9abf64a09a79b65e0b182fccf01f973de48350f43a80c07ce",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:ai-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-ai-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "ai-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:603b91722ffb8da51de70e6ed6a1fa1ceef09020294d2670723729e4c848ef78",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:business-analysts",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-business-analysts",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "business-analysts"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:aae867eccb8aa6a9cdef14c6c7275b7cd929d57c6afe0c0338c19ad2e2823e0b",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:career-changers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-career-changers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "career-changers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:f2e1dd42cfbcedbc4029e927ae918003a5ab7270ab73ede9b9fb7932a4f1b3d4",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:college-students",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-college-students",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "college-students"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:526042d2e327b2657849cda2057fa19ec80e72f5342142500a1cefb4402b41fb",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:consulting-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-consulting-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "consulting-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:a99e31294d61ee99dc349e52c80b6e396fd978622fa62a58efabae7a8d6636c3",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:content-writers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-content-writers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "content-writers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:aa12f48d4d186dbeca0b3dc626e718bd7e18aea3d0374daff2c84bf0288725ba",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:customer-success",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-customer-success",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "customer-success"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:e8ae2aabcbb85cf80a911032770885cd4713dba801322729e13df0b7e9efca1d",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:cybersecurity-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-cybersecurity-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "cybersecurity-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:37802f2e40b5415f52ae26560d5a2c7082765913590ff852d0c964134cc97676",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:data-analysts",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-data-analysts",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "data-analysts"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:a3df04d6a54d55ee70789d85c1c8fc65cdffac71910190add20e50a94f2add2f",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:designers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-designers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "designers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:4918ca7651192a8ae3677cfbac010793bf5b133e4e0bfdca46402a19a28f8269",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:entry-level-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-entry-level-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "entry-level-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:8b24fdc9308094b434734c93e05ffda78db7aab530f283dd395b2afd1da42b5b",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:executives",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-executives",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "executives"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:afc14538645ba9d642af9082df0156b2780ef111815550feb33102670d9edace",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:federal-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-federal-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "federal-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:6fd1be3a8d9b681ca81c39f09808e66e75243c48f75163c1c47604fa5a6dc46b",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:finance-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-finance-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "finance-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:948d0a05d3fcdbcf10c691f87c72fe20f2c5148a88eece1efc4f3f281987deae",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:healthcare-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-healthcare-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "healthcare-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:d5fbbf2aa479bc9f6bfa01f46bd3b397acdecf79920a8a3ec190072c1b034a58",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:hospitality-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-hospitality-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "hospitality-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:502f5cdee7748769b4ee20633b24da3dc9a7f70cf38c11e8e626424de445c606",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:human-resources",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-human-resources",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "human-resources"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:8d7740ffe28c103918e1329a10d1610d72851d80c7aa47be7a8b7946865e0096",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:international-students",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-international-students",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "international-students"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:0de34c76a5210d56f643aeb1d05599d1da54a5bcd53d55da90d4cd116c1ade65",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:internships",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-internships",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "internships"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:50320b670155fe9fc9f5b9edb0ccacd324f2ab0c3ffc3dbdd5f3ecd99fa84cfc",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:legal-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-legal-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "legal-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:9189687434a565d43ecc42f682a512492909af6531c2647127c3162eb9666f43",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:manufacturing-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-manufacturing-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "manufacturing-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:29a99e3f025f6a97c239134bd3ce59779ffe16fef33d0361f33b20789717cea8",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:marketing-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-marketing-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "marketing-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:a91f5596d04263e7fa66d680bb61c686d5c720427ea852edb67e4da45ded88ef",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:military-transition",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-military-transition",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "military-transition"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:4a5d56978f70f99bf428b5bf090813e1bb349f5d59ea9dc628f204e9d5f501dd",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:nonprofit-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-nonprofit-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "nonprofit-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:1e07993f88d6e037355c09b269d56dad8432a496fbf1918fb0a2817e3eb7333b",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:nurses",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-nurses",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "nurses"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:78b6c74dcff7d793434747d097af59c7a32fe4c39e444b76482a24491add3749",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:operations-managers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-operations-managers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "operations-managers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:082158df46b457c436feb20a7a597224c2862fa8d85063bc835234be2ba9b48b",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:product-managers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-product-managers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "product-managers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:0e6e2bdd109da2f7e311077c561aafb6831dacec7954ae22501117c5e678f927",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:project-managers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-project-managers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "project-managers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:16feeb647555a841122a52116b5d71f39a3e4c1876a17ca9d60bfc5c3a0cae27",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:real-estate-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-real-estate-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "real-estate-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:5eb114b50644c3d3c685d4f4cd3c429f8076aafbd83150a7b3c01416476676ac",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:remote-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-remote-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "remote-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:f6d5d557d1888b1f6fac8718e0f61907417395433e0e2d2ea93865c2fa9e6e3e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:retail-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-retail-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "retail-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:425c17d63438abfd4640e08f331b2ba96fe43dc17e2d6de9c046acab81dc615f",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:sales-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-sales-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "sales-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:741741f48da86a4c058d379133fb0144eb7b6c3c919b4a35d029f0742525f310",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:social-media-managers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-social-media-managers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "social-media-managers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:ae6a0c9c1afdfd380503786e1547f7d6dd7d0d99914e644639316268356ba2e3",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:software-engineers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-software-engineers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "software-engineers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:c09be5b89f20508af7507e56cb7f7fc15ab49c9084488291b3541e332139da49",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:supply-chain-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-supply-chain-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "supply-chain-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:feecc98fc9f1d4232daf396bc20b6fb15a6dd5801632e89c220f37c41d865723",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:teachers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-teachers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "teachers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:0213a24be696e0354bea98b9a5ba75d561ec742bfc42eb6fdc03d6f35e60c752",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:tech-jobs",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-tech-jobs",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "tech-jobs"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:c147d877fa886fbeae8652e10b43322b069d4ed2a5ef6aea0611e8c3c671db1d",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:programmatic:ux-researchers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/best-resume-builder-for-ux-researchers",
+      "page_type": "programmatic",
+      "source_file": "src/data/programmaticLandingPages.ts",
+      "record_selector": {
+        "slug": "ux-researchers"
+      },
+      "editable_field_paths": [
+        "audience",
+        "longForm",
+        "faq"
+      ],
+      "content_hash": "sha256:c036b23538e173a2ccd938128fa3c9115612cef7be97aa0a6bc363d3bab1f89e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:article:career-change-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/career-change-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "career-change-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:f8b854415a68a8b2f131cebc5b5641691fe3cf83cc15c19e9a83823772b7d862",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:community-insights",
+      "canonical_url": "https://geo-ai-resume.vercel.app/community-insights",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "community-insights"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:6b618f7be93060799edf920a0f2ed4a7e710d238af6a6623c2df659d50e3c6c5",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:comparison:kickresume",
+      "canonical_url": "https://geo-ai-resume.vercel.app/compare/kickresume",
+      "page_type": "comparison",
+      "source_file": "src/data/comparisons.ts",
+      "record_selector": {
+        "slug": "kickresume"
+      },
+      "editable_field_paths": [
+        "title",
+        "strengths",
+        "weaknesses"
+      ],
+      "content_hash": "sha256:3253b91f0de01cad58849679d795c38a32ce0aa7980892dd96374874206df6ca",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:comparison:resume-io",
+      "canonical_url": "https://geo-ai-resume.vercel.app/compare/resume-io",
+      "page_type": "comparison",
+      "source_file": "src/data/comparisons.ts",
+      "record_selector": {
+        "slug": "resume-io"
+      },
+      "editable_field_paths": [
+        "title",
+        "strengths",
+        "weaknesses"
+      ],
+      "content_hash": "sha256:30558a37996bd7c605c57655edb87e4ce60d20344aef14caa680977dd739e8d2",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:comparison:rezi",
+      "canonical_url": "https://geo-ai-resume.vercel.app/compare/rezi",
+      "page_type": "comparison",
+      "source_file": "src/data/comparisons.ts",
+      "record_selector": {
+        "slug": "rezi"
+      },
+      "editable_field_paths": [
+        "title",
+        "strengths",
+        "weaknesses"
+      ],
+      "content_hash": "sha256:3c5b41ab80287a7ff82730b9047aa46ccc6a8dea632878df7ba5b3bee4c4577f",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:comparison:teal",
+      "canonical_url": "https://geo-ai-resume.vercel.app/compare/teal",
+      "page_type": "comparison",
+      "source_file": "src/data/comparisons.ts",
+      "record_selector": {
+        "slug": "teal"
+      },
+      "editable_field_paths": [
+        "title",
+        "strengths",
+        "weaknesses"
+      ],
+      "content_hash": "sha256:b7aa6d1931995811c56604796e0df43a174b092b84d71978828750ebc648c596",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:comparison:zety",
+      "canonical_url": "https://geo-ai-resume.vercel.app/compare/zety",
+      "page_type": "comparison",
+      "source_file": "src/data/comparisons.ts",
+      "record_selector": {
+        "slug": "zety"
+      },
+      "editable_field_paths": [
+        "title",
+        "strengths",
+        "weaknesses"
+      ],
+      "content_hash": "sha256:dc54f2860d55a53a177cfea3a809e31151b1e82f5a970f0bb9708979fee51a92",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:cover-letter-readiness-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/cover-letter-readiness-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "cover-letter-readiness-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:4e3623c771b4b37047404935789fa17f60159331452a7a84f43c9b0e5d928265",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:cover-letter-vs-resume",
+      "canonical_url": "https://geo-ai-resume.vercel.app/cover-letter-vs-resume",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "cover-letter-vs-resume"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:d7ca45b983c9a153badc6878aa854b085687c8cf3544dba935c00ec1e4ae8289",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:data-analyst-resume-examples",
+      "canonical_url": "https://geo-ai-resume.vercel.app/data-analyst-resume-examples",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "data-analyst-resume-examples"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:48fefff64335fe4af75b4e2b08db425860c03665306a12c5c2a54d56df68050e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:data-analyst-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/data-analyst-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "data-analyst-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:c1729b80a70cf104b3677fbe28a7a27e4f6d548a37b31b00957c8886ff0577e4",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:static:entities",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entities",
+      "page_type": "static",
+      "source_file": "src/pages/EntitiesPage.tsx",
+      "record_selector": {
+        "route": "/entities"
+      },
+      "editable_field_paths": [
+        "entities"
+      ],
+      "content_hash": "sha256:63fe059059667049749dfd9cd0e8d15cdc312dba8a642ccbfb48b33ec24dc33e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:entity:application-tracking-system",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entities/application-tracking-system",
+      "page_type": "entity",
+      "source_file": "src/data/entities.ts",
+      "record_selector": {
+        "slug": "application-tracking-system"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition"
+      ],
+      "content_hash": "sha256:0166281828f7877419802d235dafe3b4111bfb80a7bf28cbb43f373cf7b853fe",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:entity:ats",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entities/ats",
+      "page_type": "entity",
+      "source_file": "src/data/entities.ts",
+      "record_selector": {
+        "slug": "ats"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition"
+      ],
+      "content_hash": "sha256:2f1a8fa53df50c58a560151fed052553ce1e08816fe94672191a1d66e2f6ac5b",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:entity:job-application",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entities/job-application",
+      "page_type": "entity",
+      "source_file": "src/data/entities.ts",
+      "record_selector": {
+        "slug": "job-application"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition"
+      ],
+      "content_hash": "sha256:d76e851f2f7b9c45b4f40264cb0b9dd9e10333a4fd967a5a9f244958fa08b842",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:entity:keyword-matching",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entities/keyword-matching",
+      "page_type": "entity",
+      "source_file": "src/data/entities.ts",
+      "record_selector": {
+        "slug": "keyword-matching"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition"
+      ],
+      "content_hash": "sha256:1fd842b1214f62ef821ebf100c5f21c7e32de7fc1ecc1474986dccac6963c982",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:entity:resume-builder",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entities/resume-builder",
+      "page_type": "entity",
+      "source_file": "src/data/entities.ts",
+      "record_selector": {
+        "slug": "resume-builder"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition"
+      ],
+      "content_hash": "sha256:e9bb72841927d3b28112a6dc28cbb55fa01f88dea15f67315acc197d684470d2",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:entity:resume-optimization",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entities/resume-optimization",
+      "page_type": "entity",
+      "source_file": "src/data/entities.ts",
+      "record_selector": {
+        "slug": "resume-optimization"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition"
+      ],
+      "content_hash": "sha256:40cf9b745a59e3d336edb8cb241d38e0c8b910fc20d629dba3fa6578e026de46",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:entity:resume-screening",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entities/resume-screening",
+      "page_type": "entity",
+      "source_file": "src/data/entities.ts",
+      "record_selector": {
+        "slug": "resume-screening"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition"
+      ],
+      "content_hash": "sha256:4bb55ebb2245557727617e5465dc4e40224e8f05aa548ec681315c21314ffe90",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:entry-level-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/entry-level-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "entry-level-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:68ef296ca697754ac57d51581fda2b720c5b0f9e66b9abfd09590d97c89a5333",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:static:examples",
+      "canonical_url": "https://geo-ai-resume.vercel.app/examples",
+      "page_type": "static",
+      "source_file": "src/pages/ExamplesPage.tsx",
+      "record_selector": {
+        "route": "/examples"
+      },
+      "editable_field_paths": [
+        "examples"
+      ],
+      "content_hash": "sha256:972570f1f0402d9c1e7500e9f001e46da35ca826851d36ade2d0fc0a01b4e650",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:example:data-analyst",
+      "canonical_url": "https://geo-ai-resume.vercel.app/examples/data-analyst",
+      "page_type": "example",
+      "source_file": "src/data/examples.ts",
+      "record_selector": {
+        "slug": "data-analyst"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:e3ee470c321fe69705279fd6cd567c6fa04ef32966db33ee0bd2d113aabcdca4",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:example:internship",
+      "canonical_url": "https://geo-ai-resume.vercel.app/examples/internship",
+      "page_type": "example",
+      "source_file": "src/data/examples.ts",
+      "record_selector": {
+        "slug": "internship"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:5ed62f3b0cadb8e9118708cb1761ca943da6a86fc7695c1b334b9f9b0816ed38",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:example:marketing",
+      "canonical_url": "https://geo-ai-resume.vercel.app/examples/marketing",
+      "page_type": "example",
+      "source_file": "src/data/examples.ts",
+      "record_selector": {
+        "slug": "marketing"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:629e0749a82f7142866c77ca4db529b9f5097f89fe0eb564ea252626fb6ed74d",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:example:product-manager",
+      "canonical_url": "https://geo-ai-resume.vercel.app/examples/product-manager",
+      "page_type": "example",
+      "source_file": "src/data/examples.ts",
+      "record_selector": {
+        "slug": "product-manager"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:509d9f3bd7fb9150448de6d4896a1f687e9005c791b52aa831f6ee139a8b15f0",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:example:recent-graduate",
+      "canonical_url": "https://geo-ai-resume.vercel.app/examples/recent-graduate",
+      "page_type": "example",
+      "source_file": "src/data/examples.ts",
+      "record_selector": {
+        "slug": "recent-graduate"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:cc24a0d4b9138f8e7178359081d5636d16bc7529947d801647e3d2b6dad1a05e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:example:software-engineer",
+      "canonical_url": "https://geo-ai-resume.vercel.app/examples/software-engineer",
+      "page_type": "example",
+      "source_file": "src/data/examples.ts",
+      "record_selector": {
+        "slug": "software-engineer"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:f7815923bc896beddb3bb0ecfeaf6e4f268d946843dd46ad95c8d216db7bd8e0",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:executive-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/executive-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "executive-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:7e60e1744c1f5928469a95f9537c0c14cc8b75bb8603015109685f3bb7c76d7e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:static:faq",
+      "canonical_url": "https://geo-ai-resume.vercel.app/faq",
+      "page_type": "static",
+      "source_file": "src/pages/FaqPage.tsx",
+      "record_selector": {
+        "route": "/faq"
+      },
+      "editable_field_paths": [
+        "faqs"
+      ],
+      "content_hash": "sha256:31fc37362870ead4ccc90a982f20acbe396f5301b615decfc845740a4dafd673",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:federal-resume-vs-private-sector-resume",
+      "canonical_url": "https://geo-ai-resume.vercel.app/federal-resume-vs-private-sector-resume",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "federal-resume-vs-private-sector-resume"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:068c0331a67dfb47e8bdf11928fa67d70e36ac1e642ab80fa565a6600aa9d9b3",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:free-ats-resume-checkers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/free-ats-resume-checkers",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "free-ats-resume-checkers"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:9807e740822aed3d2ca168f6dcb8bbf5e99490d902ba309f716f09d8ddd1edb9",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:free-resume-builders",
+      "canonical_url": "https://geo-ai-resume.vercel.app/free-resume-builders",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "free-resume-builders"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:64a2a939c7aa66a10fe7709e95d96a5221091309a0f99673393fd0a59be3cbf8",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:static:guides",
+      "canonical_url": "https://geo-ai-resume.vercel.app/guides",
+      "page_type": "static",
+      "source_file": "src/pages/GuidesPage.tsx",
+      "record_selector": {
+        "route": "/guides"
+      },
+      "editable_field_paths": [
+        "guides"
+      ],
+      "content_hash": "sha256:e9f595d70f328f635e2dd23cea1c8d0636bc46686d864c41181992d825c4f29b",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:healthcare-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/healthcare-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "healthcare-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:333dd4108224c552f2fd95cf9f95da75d58b7a35fcea1b19936ad8dc41b1315e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:how-recruiters-read-resumes",
+      "canonical_url": "https://geo-ai-resume.vercel.app/how-recruiters-read-resumes",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "how-recruiters-read-resumes"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:28fa23e2ed05b5ca4a35808beeceb33a490ea9c2c14284cf1974749bba76033a",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:static:hub",
+      "canonical_url": "https://geo-ai-resume.vercel.app/hub",
+      "page_type": "static",
+      "source_file": "src/pages/HubPage.tsx",
+      "record_selector": {
+        "route": "/hub"
+      },
+      "editable_field_paths": [
+        "sections"
+      ],
+      "content_hash": "sha256:c82dcfd49a29d3b28c3c6477081d007bb0dfdbf1970ca2aaa271a1ff513fd5ae",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:international-student-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/international-student-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "international-student-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:60daa5ac40e683073d4315ccbd07f18cded4efdb53bd9031529fb80f63070e21",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:internship-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/internship-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "internship-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:2dcd372c35844e745c5a923db62b1fc3b417f6235249b7cee518224a29e962ea",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:interview-preparation-after-resume",
+      "canonical_url": "https://geo-ai-resume.vercel.app/interview-preparation-after-resume",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "interview-preparation-after-resume"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:39567691c600d40b03ca502a9810ac1ce5b03d070b153dd5a7a6a65e3e66b65d",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:job-targeting-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/job-targeting-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "job-targeting-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:295449a53c29d816df0f0c27197382beed7abdd10a5300ce749d44c0e2c4304a",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:linkedin-profile-vs-resume",
+      "canonical_url": "https://geo-ai-resume.vercel.app/linkedin-profile-vs-resume",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "linkedin-profile-vs-resume"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:5812987ac7f70f9a28f17e5ab66052b8ff1998bf5b7096e2b1ab15143bfc51f2",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:linkedin-resume-alignment-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/linkedin-resume-alignment-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "linkedin-resume-alignment-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:2cf8758d6054ad6a334094693f5b50dd59a9bbaa1d07738e531907a2b2127be6",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:static:methodology",
+      "canonical_url": "https://geo-ai-resume.vercel.app/methodology",
+      "page_type": "static",
+      "source_file": "src/pages/MethodologyPage.tsx",
+      "record_selector": {
+        "route": "/methodology"
+      },
+      "editable_field_paths": [
+        "frameworks"
+      ],
+      "content_hash": "sha256:b330a18ea3bbec6d18b6935d96a0c814aec418201b201b4bfdd4e3ea19c76775",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:portfolio-readiness-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/portfolio-readiness-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "portfolio-readiness-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:e7c3401c1367d383b8ff1dae74e82125306ca2585cd782cc2fb8e785ccfe1104",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:product-manager-resume-examples",
+      "canonical_url": "https://geo-ai-resume.vercel.app/product-manager-resume-examples",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "product-manager-resume-examples"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:741bafab86cc8e5480357c1854b6061b46ccf519a033d7ff3641dd852d337d16",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:product-manager-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/product-manager-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "product-manager-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:79e7f5c28027327fd050eb619561a85b9fbe56de532a053fce527a81111baabf",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:recent-graduate-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/recent-graduate-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "recent-graduate-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:75349d70410b53126865b2b4506b0a17e360e5c5bcad4b69b79cfbc8ac769976",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:remote-job-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/remote-job-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "remote-job-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:77b1271f07af21634a7f3b96d2c079b87c0cc81438096c5c4ab1749456909ab8",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:static:research",
+      "canonical_url": "https://geo-ai-resume.vercel.app/research",
+      "page_type": "static",
+      "source_file": "src/pages/ResearchPage.tsx",
+      "record_selector": {
+        "route": "/research"
+      },
+      "editable_field_paths": [
+        "frameworks",
+        "definitions"
+      ],
+      "content_hash": "sha256:32982724263de5e6855edd2215aa5de0bd2c27f696c52400f08191cac51e17b1",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:research:acr",
+      "canonical_url": "https://geo-ai-resume.vercel.app/research/acr",
+      "page_type": "research",
+      "source_file": "src/data/resumeFrameworks.ts",
+      "record_selector": {
+        "slug": "acr"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition",
+        "methodology"
+      ],
+      "content_hash": "sha256:3003bbf725979726501f21eef99e23716efab6030a9bb400bd42e734471bfe15",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:research:ars",
+      "canonical_url": "https://geo-ai-resume.vercel.app/research/ars",
+      "page_type": "research",
+      "source_file": "src/data/resumeFrameworks.ts",
+      "record_selector": {
+        "slug": "ars"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition",
+        "methodology"
+      ],
+      "content_hash": "sha256:2899e8914164fc099e491363984c4280a20526d2d27c87ec07473015179f8bbe",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:research:rri",
+      "canonical_url": "https://geo-ai-resume.vercel.app/research/rri",
+      "page_type": "research",
+      "source_file": "src/data/resumeFrameworks.ts",
+      "record_selector": {
+        "slug": "rri"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition",
+        "methodology"
+      ],
+      "content_hash": "sha256:3a1d7c0b2c4770c36a9c0912b47426892c44279cf97fe42352d686cb69597d9d",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:research:terminology",
+      "canonical_url": "https://geo-ai-resume.vercel.app/research/terminology",
+      "page_type": "research",
+      "source_file": "src/data/resumeFrameworks.ts",
+      "record_selector": {
+        "slug": "terminology"
+      },
+      "editable_field_paths": [
+        "name",
+        "definition",
+        "methodology"
+      ],
+      "content_hash": "sha256:39c1eeab572dbdea746e62acd64928bd8dda2b32f346a072034275b45ba205fe",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-action-verbs-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-action-verbs-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-action-verbs-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:2f6c84e57197a30fcae86487bf7f9227d627e6de875e9ecc29cb905a5d26270e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-builder-pricing-comparison",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-builder-pricing-comparison",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-builder-pricing-comparison"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:d917279b06db886cf309a1955d935c31ebbb5d9825b9fc4d08ec148fc3954721",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-builder-vs-chatgpt",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-builder-vs-chatgpt",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-builder-vs-chatgpt"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:029387dd7acdf3cb7cbb2fd5f99039ac6e65268d53407008d0fbe3e3c57bab6d",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-builder-vs-chatgpt-2026",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-builder-vs-chatgpt-2026",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-builder-vs-chatgpt-2026"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:4b937516366d8e6c0700ea7a93051bc6ef5a5aa10271413d0100c710dcf19805",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-builder-vs-resume-io",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-builder-vs-resume-io",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-builder-vs-resume-io"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:5d240f009a8fb7b9e0987da2bc900082d67fa8480a97c199a6b21cbd578e4355",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-builder-vs-rezi",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-builder-vs-rezi",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-builder-vs-rezi"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:fde686316f68fb8a2201af9d2cdbcddf0b273b765a35edf08b505121ad36cab2",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-builder-vs-teal",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-builder-vs-teal",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-builder-vs-teal"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:0eadc4545fa225e96e57516ed7fdd0095376be458f59615ca39a496a1096a0ad",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-bullet-point-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-bullet-point-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-bullet-point-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:4ffbac0f876ee47c2908ae150c6eb0a4a3c911bf500edc7287e6fc405707dcad",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-faq-for-job-seekers",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-faq-for-job-seekers",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-faq-for-job-seekers"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:3e9292c3147a783c8961f9c31f411802f1ccd41be03965c00552f1f6287c844e",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-gap-explanation-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-gap-explanation-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-gap-explanation-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:be85d2520f25b9665f128ab062332fe0dffda35738da2dca1927645a5420f444",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-keywords-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-keywords-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-keywords-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:18ba4f56f9be5f6272b0e74fedea61872afc2fe8aa64ff8b86ee2c936845d6e1",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-length-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-length-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-length-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:26cd1f700fad8939a8438885e5f7003bd420b85715cbdd520a7ce862e8c4fbd2",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-mistakes",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-mistakes",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-mistakes"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:fa745ddc90705f51a75fde1aa5ed02f5a73b916e6982ab8987226a72593d9225",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-mistakes-that-get-rejected",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-mistakes-that-get-rejected",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-mistakes-that-get-rejected"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:44ea34593c0090c603ca2b493a0734dedd64f6feea7102f2d3ba8b213775dd43",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-optimization-checklist",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-optimization-checklist",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-optimization-checklist"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:0267af5a4cff9c25d8fed9bddee49079940f4bb42658f62285410765da78dba3",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-review-framework",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-review-framework",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-review-framework"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:84e1c1175ae98b253548f1ee50e3a72f80e6816ef55e19e5e51d8f02704ed2a6",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-summary-examples",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-summary-examples",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-summary-examples"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:442b545eff58eb4573c0a75d895d4e33fa539d9aa339d13b04b93a6a550fc856",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resume-templates-explained",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume-templates-explained",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resume-templates-explained"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:4f239d31f29fec47764ff33ae1815980752701f559747096272a9fd803b4b1b6",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:career:accountant",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume/accountant",
+      "page_type": "career",
+      "source_file": "src/data/careerPages.ts",
+      "record_selector": {
+        "slug": "accountant"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:fb8d88ee8ea89ecbc5dbc95de25e8ed352173244b6c20a1ba29493cd5e426ad4",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:career:data-analyst",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume/data-analyst",
+      "page_type": "career",
+      "source_file": "src/data/careerPages.ts",
+      "record_selector": {
+        "slug": "data-analyst"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:047fa22d1641e506192ae286503792964441ac1f0636f628b8e146bdc81651b3",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:career:marketing",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume/marketing",
+      "page_type": "career",
+      "source_file": "src/data/careerPages.ts",
+      "record_selector": {
+        "slug": "marketing"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:9a5124ebc6eafd610e371ddf24355a8a9b2e06320c0b9e1e7893087807dab258",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:career:nurse",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume/nurse",
+      "page_type": "career",
+      "source_file": "src/data/careerPages.ts",
+      "record_selector": {
+        "slug": "nurse"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:d0ea82c5e21230c65b41ab7956a100b217f4efab7580a77c2da9fb85ce2cc74d",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:career:product-manager",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume/product-manager",
+      "page_type": "career",
+      "source_file": "src/data/careerPages.ts",
+      "record_selector": {
+        "slug": "product-manager"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:e44b2061a2e256f585a3dacbea04e5472bb3586a47b9df77afcd25dfba9e4bdb",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:career:software-engineer",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume/software-engineer",
+      "page_type": "career",
+      "source_file": "src/data/careerPages.ts",
+      "record_selector": {
+        "slug": "software-engineer"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:3608d84ed429f3cac6c521c64cd26dfb3f0f7aee3ec2599ee7aff98ab1e26f39",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:career:teacher",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resume/teacher",
+      "page_type": "career",
+      "source_file": "src/data/careerPages.ts",
+      "record_selector": {
+        "slug": "teacher"
+      },
+      "editable_field_paths": [
+        "title",
+        "sections"
+      ],
+      "content_hash": "sha256:ebdb58b3bfd2718cf52b729e3f4876b82cd66692f6a2a29184eae6b2cf5e5309",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": true
+    },
+    {
+      "page_id": "gar:article:resumeforge-vs-chatgpt",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resumeforge-vs-chatgpt",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resumeforge-vs-chatgpt"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:7090918bc0f11160ab2b14a594fbf6f1549e44e9b2415b090163a7319a4f8441",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resumeforge-vs-enhancv",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resumeforge-vs-enhancv",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resumeforge-vs-enhancv"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:b3648cdeabf65f6df17e67be168dc6ebaef643de4ea3fc1b69d437693aa10601",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resumeforge-vs-kickresume",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resumeforge-vs-kickresume",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resumeforge-vs-kickresume"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:2cb9a3e673c6246744f06fa57d35f6172dae3ff49695bce8a5d9d6a1ee3cfcfd",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resumeforge-vs-resume-io",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resumeforge-vs-resume-io",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resumeforge-vs-resume-io"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:3a75ce46331c3f4e6668df0d49eceb0d095c2950883a371b3494ed470875f5d9",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resumeforge-vs-rezi",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resumeforge-vs-rezi",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resumeforge-vs-rezi"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:cfcde454ccb2a54ff08e8527366593af090daa7d19e1ce7afadc07492ddef41f",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:resumeforge-vs-teal",
+      "canonical_url": "https://geo-ai-resume.vercel.app/resumeforge-vs-teal",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "resumeforge-vs-teal"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:87e3ccd3adfc83c721d9097e71deccfaeba55b1b430808d2deccf6a4b55ff755",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:sales-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/sales-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "sales-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:d235975604e504cd49948d4bad6cde1da0ca95e29d145a97a0e17f1b097f0246",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:software-engineer-resume-examples",
+      "canonical_url": "https://geo-ai-resume.vercel.app/software-engineer-resume-examples",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "software-engineer-resume-examples"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:749f66497986f23e24cf2b265305f0cb0842d611df1a3a04e8f340ba7a070f74",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:software-engineer-resume-guide",
+      "canonical_url": "https://geo-ai-resume.vercel.app/software-engineer-resume-guide",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "software-engineer-resume-guide"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:40afeb34c5656877376b0fb8eb250866c400a71fac7e1782b433e31720675038",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    },
+    {
+      "page_id": "gar:article:student-resume-with-no-experience",
+      "canonical_url": "https://geo-ai-resume.vercel.app/student-resume-with-no-experience",
+      "page_type": "article",
+      "source_file": "src/data/articles.ts",
+      "record_selector": {
+        "slug": "student-resume-with-no-experience"
+      },
+      "editable_field_paths": [
+        "title",
+        "description",
+        "analysis",
+        "faqs"
+      ],
+      "content_hash": "sha256:590f9559af68d1b80976b3d8d62975bf67bb98727e02d0306135d69f6688bf21",
+      "source_git_revision": "6336a7e592ad2c16d201cae101b4482fd8f5be6d",
+      "shared_across_multiple_pages": false
+    }
+  ],
+  "shared_template_fanout": {
+    "src/data/articleFactory.ts": [
+      "gar:article:ai-resume-builder-comparison",
+      "gar:article:ai-resume-writing-tools",
+      "gar:article:ats-friendly-resume-format",
+      "gar:article:ats-resume-guide",
+      "gar:article:ats-resume-myths",
+      "gar:article:best-resume-builder-2026",
+      "gar:article:career-change-resume-guide",
+      "gar:article:community-insights",
+      "gar:article:cover-letter-readiness-guide",
+      "gar:article:cover-letter-vs-resume",
+      "gar:article:data-analyst-resume-examples",
+      "gar:article:data-analyst-resume-guide",
+      "gar:article:entry-level-resume-guide",
+      "gar:article:executive-resume-guide",
+      "gar:article:federal-resume-vs-private-sector-resume",
+      "gar:article:free-ats-resume-checkers",
+      "gar:article:free-resume-builders",
+      "gar:article:healthcare-resume-guide",
+      "gar:article:how-recruiters-read-resumes",
+      "gar:article:international-student-resume-guide",
+      "gar:article:internship-resume-guide",
+      "gar:article:interview-preparation-after-resume",
+      "gar:article:job-targeting-guide",
+      "gar:article:linkedin-profile-vs-resume",
+      "gar:article:linkedin-resume-alignment-guide",
+      "gar:article:portfolio-readiness-guide",
+      "gar:article:product-manager-resume-examples",
+      "gar:article:product-manager-resume-guide",
+      "gar:article:recent-graduate-resume-guide",
+      "gar:article:remote-job-resume-guide",
+      "gar:article:resume-action-verbs-guide",
+      "gar:article:resume-builder-pricing-comparison",
+      "gar:article:resume-builder-vs-chatgpt",
+      "gar:article:resume-builder-vs-chatgpt-2026",
+      "gar:article:resume-builder-vs-resume-io",
+      "gar:article:resume-builder-vs-rezi",
+      "gar:article:resume-builder-vs-teal",
+      "gar:article:resume-bullet-point-guide",
+      "gar:article:resume-faq-for-job-seekers",
+      "gar:article:resume-gap-explanation-guide",
+      "gar:article:resume-keywords-guide",
+      "gar:article:resume-length-guide",
+      "gar:article:resume-mistakes",
+      "gar:article:resume-mistakes-that-get-rejected",
+      "gar:article:resume-optimization-checklist",
+      "gar:article:resume-review-framework",
+      "gar:article:resume-summary-examples",
+      "gar:article:resume-templates-explained",
+      "gar:article:resumeforge-vs-chatgpt",
+      "gar:article:resumeforge-vs-enhancv",
+      "gar:article:resumeforge-vs-kickresume",
+      "gar:article:resumeforge-vs-resume-io",
+      "gar:article:resumeforge-vs-rezi",
+      "gar:article:resumeforge-vs-teal",
+      "gar:article:sales-resume-guide",
+      "gar:article:software-engineer-resume-examples",
+      "gar:article:software-engineer-resume-guide",
+      "gar:article:student-resume-with-no-experience"
+    ],
+    "src/data/programmaticLandingPages.ts": [
+      "gar:programmatic:accountants",
+      "gar:programmatic:administrative-assistants",
+      "gar:programmatic:ai-jobs",
+      "gar:programmatic:business-analysts",
+      "gar:programmatic:career-changers",
+      "gar:programmatic:college-students",
+      "gar:programmatic:consulting-jobs",
+      "gar:programmatic:content-writers",
+      "gar:programmatic:customer-success",
+      "gar:programmatic:cybersecurity-jobs",
+      "gar:programmatic:data-analysts",
+      "gar:programmatic:designers",
+      "gar:programmatic:entry-level-jobs",
+      "gar:programmatic:executives",
+      "gar:programmatic:federal-jobs",
+      "gar:programmatic:finance-jobs",
+      "gar:programmatic:healthcare-jobs",
+      "gar:programmatic:hospitality-jobs",
+      "gar:programmatic:human-resources",
+      "gar:programmatic:international-students",
+      "gar:programmatic:internships",
+      "gar:programmatic:legal-jobs",
+      "gar:programmatic:manufacturing-jobs",
+      "gar:programmatic:marketing-jobs",
+      "gar:programmatic:military-transition",
+      "gar:programmatic:nonprofit-jobs",
+      "gar:programmatic:nurses",
+      "gar:programmatic:operations-managers",
+      "gar:programmatic:product-managers",
+      "gar:programmatic:project-managers",
+      "gar:programmatic:real-estate-jobs",
+      "gar:programmatic:remote-jobs",
+      "gar:programmatic:retail-jobs",
+      "gar:programmatic:sales-jobs",
+      "gar:programmatic:social-media-managers",
+      "gar:programmatic:software-engineers",
+      "gar:programmatic:supply-chain-jobs",
+      "gar:programmatic:teachers",
+      "gar:programmatic:tech-jobs",
+      "gar:programmatic:ux-researchers"
+    ],
+    "src/data/careerPages.ts": [
+      "gar:career:accountant",
+      "gar:career:data-analyst",
+      "gar:career:marketing",
+      "gar:career:nurse",
+      "gar:career:product-manager",
+      "gar:career:software-engineer",
+      "gar:career:teacher"
+    ]
+  }
+}

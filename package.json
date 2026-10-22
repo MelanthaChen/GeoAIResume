@@ -7,6 +7,9 @@
     "dev": "vite",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
     "generate:static-seo": "node scripts/generate-static-seo-pages.mjs",
+    "integration:manifest": "node scripts/generate-content-manifest.mjs",
+    "integration:verify": "node scripts/verify-deployment.mjs",
+    "test:integration": "node --test tests/integration/*.test.mjs",
     "build": "npm run generate:sitemap && tsc -b && vite build && npm run generate:static-seo",
     "lint": "eslint .",
     "preview": "vite preview"

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "geo-research-integration/v1/deployment-receipt",
+  "type": "object",
+  "required": ["contract_version", "deployment", "verification"],
+  "properties": {
+    "contract_version": { "const": "geo-research-integration/v1" },
+    "deployment": {
+      "type": "object",
+      "required": ["status", "provider"],
+      "properties": {
+        "status": { "enum": ["not_deployed", "source_changed", "git_revision_created", "deployment_ready", "public_verified"] },
+        "provider": { "const": "vercel" },
+        "git_commit": { "type": ["string", "null"] },
+        "provider_deployment_id": { "type": ["string", "null"] },
+        "deployment_url": { "type": ["string", "null"] },
+        "production_url": { "type": ["string", "null"] },
+        "deployed_at": { "type": ["string", "null"] }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["not_run", "source_only", "git_only", "deployment_ready", "public_verified", "failed"] },
+        "checked_at": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] },
+        "http_status": { "type": ["integer", "null"] },
+        "content_match": { "type": ["boolean", "null"] },
+        "expected_content_hash": { "type": ["string", "null"] },
+        "deployed_content_hash": { "type": ["string", "null"] },
+        "deployment_timestamp": { "type": ["string", "null"] },
+        "git_revision": { "type": ["string", "null"] },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

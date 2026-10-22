@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "geo-research-integration/v1/change-proposal",
+  "type": "object",
+  "required": ["proposal_id", "page_id", "source_git_revision", "exact_original_text", "replacement_text", "original_text_sha256", "source_field_locator", "strategy_id", "approval_status", "expected_affected_pages", "experiment_reference"],
+  "properties": {
+    "proposal_id": { "type": "string", "minLength": 1 },
+    "page_id": { "type": "string", "minLength": 1 },
+    "source_git_revision": { "type": "string", "minLength": 1 },
+    "exact_original_text": { "type": "string", "minLength": 1 },
+    "replacement_text": { "type": "string", "minLength": 1 },
+    "original_text_sha256": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "strategy_id": { "type": "string", "minLength": 1 },
+    "approval_status": { "enum": ["pending", "approved", "rejected"] },
+    "expected_affected_pages": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "experiment_reference": { "type": "string", "minLength": 1 },
+    "source_field_locator": { "type": "object", "required": ["source_file", "field_path", "original_text_sha256"], "properties": { "source_file": { "type": "string" }, "field_path": { "type": "string" }, "original_text_sha256": { "type": "string" } } }
+  }
+}
